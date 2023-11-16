@@ -17,3 +17,8 @@ Route::get('/', function () {
     $saluto = 'Hello World';
     return view('home', compact('saluto'));
 });
+
+Route::get('/about', function () {
+    $salutoAbout = 'Hello About';
+    return view('about', compact('salutoAbout'));
+});

@@ -8,16 +8,7 @@
 </head>
 <body>
 
-    <header>
-
-        <h1>{{$saluto}}</h1>
-
-        <ul>
-            <li><a href="/"></a>home</li>
-            <li><a href="/about">about</a></li>
-        </ul>
-
-    </header>
+    <h1>{{$salutoAbout}}</h1>
 
 </body>
 </html>
